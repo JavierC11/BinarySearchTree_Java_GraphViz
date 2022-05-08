@@ -53,11 +53,14 @@ public class Main {
             System.out.println(ex.getMessage());
         }
         
+        
+        BTree.graficar();
         System.out.println("\nRecodido por Preorden");
         BTree.Preorden(BTree.raiz);
         
         BTree.EliminarNode(65);
         
+        BTree.graficar();
         System.out.println("\nRecodido por Inorden");
         BTree.Inorden(BTree.raiz);
     }

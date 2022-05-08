@@ -137,4 +137,9 @@ public class Binarytree {
     }
     
     
+    public void graficar() {
+        raiz.graficar();
+    }
+    
+    
 }
